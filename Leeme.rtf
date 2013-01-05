@@ -1,0 +1,64 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\froman\fcharset0 Times-Roman;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue233;\red43\green71\blue20;\red155\green44\blue1;
+}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\f0\fs24 \cf0 Mac Parlando\
+\
+Este Script en Python es para Mac OSX  (10.4, 10.5, 10.6, 10.7, 10.8)\
+Es un simple script divertido para hacer hablar al sistema operativo OSX.\
+Estilo {\field{\*\fldinst{HYPERLINK "http://es.wikipedia.org/wiki/Stephen_Hawking"}}{\fldrslt 
+\f1\i\b\fs28 \cf2 Stephen Hawking}}\
+Usted es libre modificar y mejorar o redistribuir "Mac Parlando.py"\
+Respetando los t\'e9rminos de la licencia GPL V2\
+\
+Para correr el script haga lo siguiente:\
+\
+1. Habra la terminal (puede encontrarla haciendo click en "spotlight" [el icono de lupa] \
+    escribiendo la palabra "Terminal" y click en terminal.\
+2. En la terminal escriba la palabra "python" de un espacio y arrastre el archivo "Mac-Parlando.py"\
+    a la terminal, sueltelo y presione "Enter".\
+\
+\
+para agregar nuevas voces en espa\'f1ol u otro lenguaje haga lo siguiente:\
+\
+1. Abre "Preferencias del Sistema".\
+2. En la secci\'f3n de sistema haga click en "Dictado y habla".\
+3. Click en la pesta\'f1a "Texto a voz".\
+4. en "Voz del sistema" haga click en el men\'fa desplegable.\
+5. Click en la ultima opci\'f3n "Personalizar".\
+6. Palomee los checkbox's de la voz que desee y haga click en aceptar.\
+7. Acepte la confirmaci\'f3n para descargar la voz y reinicie el sistema. \
+\
+Agregue al c\'f3digo las voces que ha descargado\
+\
+Ejemplo: \
+\
+[*] En este caso se agrego la voz de Paulina (Voz Mexicana) \
+[*] Se muestra en Rojo y con letra grande lo que se agrego al c\'f3digo\
+\
+...\
+...\
+def menu():\
+      menu_voces = raw_input(
+\fs22 \CocoaLigature0 "\\n[>] Menu de Voces para desplegar su mensaje\\n\\n[>] 1.\
+        Kathy.\\n[>] 2.  Vicki.\\n[>] 3.  Victoria.\\n[>] 4.  Alex.\\n[>] 5.  Bruce.\
+        \\n[>] 6.  Fred.\\n[>] 7.  Cantado Grave.\\n[>] 8.  Cantado Agudo.\\n[>] 9.\
+        Zarvox.\\n
+\b\fs32 \cf3 [>] 10. PAULINA_VOZ_NUEVA\\n
+\b0\fs22 \cf0 [>] 00. Salir.\\n                             \
+        \\n"27"[1;94m"+"[-]"27"[0m" "Elija el numero de voz que guste usar: ")\
+
+\fs24 \'85\
+\'85\
+      
+\b  
+\fs32 \cf4 elif menu_voces == "10":\
+                                     Voz = "Paulina"
+\b0\fs24 \cf0  \
+...\
+\'85\
+\
+Una vez agregado guarde y corra el script de nuevo y disfrute =)}
