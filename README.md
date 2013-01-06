@@ -13,7 +13,7 @@ email: RickGC0[at]gmail[dot]com
 
 Para descargarlo y probar este script copia y pega este comando:
 
-# git clone https://github.com/RickGC/Mac-Parlando Mac-Parlando/
+git clone https://github.com/RickGC/Mac-Parlando Mac-Parlando/
 
 Ejemplo:
 
