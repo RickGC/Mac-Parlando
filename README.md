@@ -17,6 +17,6 @@ $ "git clone https://github.com/RickGC/Mac-Parlando Mac-Parlando/"
 
 Ejemplo:
 
-# en la terminal de mac en el directorio "Desktop"
+en la terminal de mac en el directorio "Desktop"
 
 MacBook-Pro-de-RickGC:Desktop RickGC$ git clone https://github.com/RickGC/Mac-Parlando Mac-Parlando/
